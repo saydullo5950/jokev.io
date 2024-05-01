@@ -572,6 +572,9 @@ video {
 .max-w-lg {
   max-width: 32rem;
 }
+.max-w-5xl {
+  max-width: 64rem;
+}
 .cursor-pointer {
   cursor: pointer;
 }
@@ -828,10 +831,6 @@ video {
   --tw-text-opacity: 1;
   color: rgb(65 106 189 / var(--tw-text-opacity));
 }
-.group:hover .group-hover\:text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
 .group:hover .group-hover\:text-brend-blue-200 {
   --tw-text-opacity: 1;
   color: rgb(65 106 189 / var(--tw-text-opacity));
@@ -872,6 +871,11 @@ video {
   .sm\:px-12 {
     padding-left: 3rem;
     padding-right: 3rem;
+  }
+
+  .sm\:px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 
   .sm\:text-4xl {
